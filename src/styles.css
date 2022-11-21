@@ -1,0 +1,141 @@
+html,
+body {
+  min-height: 100vh;
+  background-color: white;
+  color: #484848;
+}
+
+#root,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root h1 {
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #00932a;
+  font-family: "Times New Roman";
+}
+
+#wrapper .info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 3.8rem;
+  font-weight: bold;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(220, 220, 220);
+  margin: 1rem 0 1rem 0;
+}
+
+#coordinates,
+#steps {
+  font-size: 1.2rem;
+}
+
+#message {
+  font-size: 1.2rem;
+  color: #00808c;
+  font-style: italic;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+#grid .square {
+  border: 4px solid black;
+  margin: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.functional #grid .square.active {
+  background-color: #8bb103;
+}
+
+.functional #grid .square {
+  background-color: #017a15;
+}
+
+#keypad {
+  background-color: rbg(252, 252, 252);
+  border-radius: 50%;
+  border: 1px solid rbg(238, 238, 238);
+  padding: 0.55rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 55px 55px 55px;
+  grid-template-rows: 55px 55px 55px;
+  grid-template-areas:
+    ". up ."
+    "left reset right"
+    ". down .";
+}
+
+#keypad button {
+  border: 1px solid #dddddd;
+  border-radius: 28%;
+  align-self: center;
+  width: 55px;
+  height: 55px;
+}
+
+#keypad button:active {
+  box-shadow: 0 0 5px #93005a;
+  border: 1px solid #93005a;
+  background-color: white;
+}
+
+button#reset {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  margin-left: 5px;
+  grid-area: reset;
+}
+
+button#left {
+  grid-area: left;
+}
+
+button#up {
+  grid-area: up;
+}
+
+button#right {
+  grid-area: right;
+}
+
+button#down {
+  grid-area: down;
+}
+
+input {
+  height: 1.9rem;
+  border-radius: 0;
+  margin: -1px;
+  border: 1px solid #dddddd;
+  background-color: white;
+  outline: none;
+}
+
+input[type="email"] {
+  width: 230px;
+  margin-right: 1rem;
+}
+
+input:active {
+  box-shadow: 0 0 5px #93005a;
+  border: 1px solid #93005a;
+}
