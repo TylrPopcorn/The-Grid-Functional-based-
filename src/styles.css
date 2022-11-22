@@ -92,8 +92,8 @@ body {
 }
 
 #keypad button:active {
-  box-shadow: 0 0 5px #93005a;
-  border: 1px solid #93005a;
+  box-shadow: 0 0 5px #009349;
+  border: 1px solid #009320;
   background-color: white;
 }
 
@@ -136,6 +136,6 @@ input[type="email"] {
 }
 
 input:active {
-  box-shadow: 0 0 5px #93005a;
-  border: 1px solid #93005a;
+  box-shadow: 0 0 5px #009349;
+  border: 1px solid #009320;
 }
