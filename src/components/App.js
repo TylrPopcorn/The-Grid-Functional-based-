@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 import Functions from "./Functions"; //Helper functions that help the AppFunctional work correctly.
 
-import axios from "axios";
-
 function App() {
   const [data, setData] = useState({
     coordinates: [2, 2], //The 'coordinates' of D
