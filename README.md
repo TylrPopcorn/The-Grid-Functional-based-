@@ -2,7 +2,7 @@
 
 Created using React.js
 
-This is a practice example using functional components in React.js
+This is a practice example using functional based components in React.js
 
 --  --  --
 
