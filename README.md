@@ -14,3 +14,4 @@ This is a practice example using functional based components in React.js
 <img width="575" alt="Screen Shot 2022-11-22 at 11 25 57 AM" src="https://user-images.githubusercontent.com/104395322/203367885-ed8c0d4f-a71e-4057-9642-a5fd9802e5a7.png">
 
 
+Check out the **class based** version: https://github.com/TylrPopcorn/The-Grid-Class-Based-
