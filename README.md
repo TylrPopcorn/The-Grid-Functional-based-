@@ -1,4 +1,4 @@
-# advanced-react-practice (FUNCTIONAL BASED)
+# The-Grid (FUNCTIONAL BASED)
 
 Created using React.js
 
